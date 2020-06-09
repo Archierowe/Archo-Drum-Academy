@@ -14,7 +14,7 @@
 <body>
 	<!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
                 <!-- Logo Image-->
                     <a class="navbar-brand logo" href="index.html">
@@ -26,8 +26,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item text-center">
                             <a class="nav-link" href="#">About</a>
@@ -48,12 +48,68 @@
         </nav>
 	</header>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Column 1</h3>
+                        <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>  
+        </div>      
+    </section>
 
 
 	<!-- FOOTER -->
-	<footer>
+        <footer class="container-fluid">
+            <div id="footer-details" class="row footer-container text-center text-md-left">
+                <div class="col-sm-4">
+                    <h5>Connect</h5>
+                        <ul class="list-inline connect-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://en-gb.facebook.com/">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/home">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.youtube.com/">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Where are we?</h5>
+                        <p class="inline-block general-sub">
+                        Map which tells user location of Archo Drum Academy
+                        </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Contact Us</h5>
+                        <p class="inline-block general-sub">
+                        1 Drum Lane
+                        Norwich 
+                        Norfolk 
+                        NR1 4TS 
+                        </p>
+                </div>
+            </div>
+        </footer>
 
-	</footer>
 </body>
 
 </html>

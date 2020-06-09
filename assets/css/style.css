@@ -1,4 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+
+
+/* ---------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 
+h5 {
+    margin: 0;
+}
+
+h5 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+}
+
 
 /* ---------------------------------------------Header */
 
@@ -23,9 +52,10 @@
 .navbar-nav .nav-item .nav-link {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
     font-weight: 200;
     font-size: 1.2rem;
-    padding: 1.2rem;
+    padding: 0.5rem 1.2rem;
     position: relative;
     display: inline-block;
 }
@@ -41,8 +71,8 @@
     margin: auto;
     display: block;
     content: "";
-    background-color: #fff;
     clear: both;
+    background-color: #fff;
 }
 
 .navbar-toggler {
@@ -51,3 +81,46 @@
     right: 0px;
     border: none;
 }
+
+/* ---------------------------------------------Section */
+
+
+
+/* ---------------------------------------------Footer */
+
+footer {
+    background-color: #343a40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.connect-links {
+    padding-bottom: 15px;
+}
+
+.connect-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.connect-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
