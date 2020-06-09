@@ -2,16 +2,52 @@
 
 /* ---------------------------------------------Header */
 
-header {
-    margin: 0;
+.nav-container {
+    width: 100%;
 }
 
-.navbar {
-    height: 200px;
+.logo {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo img {
-    height: 200px;
-    padding-bottom: 28px;
+    height: 125px;
 }
 
+.navbar-brand {
+    width: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after,
+.nav-item .active::after {
+    width: 60%;
+    height: 1px;
+    margin: auto;
+    display: block;
+    content: "";
+    background-color: #fff;
+    clear: both;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    border: none;
+}
