@@ -61,10 +61,11 @@
 
 
 	<!-- FOOTER -->
-        <footer class="container-fluid">
-            <div id="footer-details" class="row footer-container text-center text-md-left">
+        <footer class="sticky-footer">
+        <div class="container-fluid">
+            <div class="row footer-container text-md-left">
                 <div class="col-sm-4">
-                    <h5>Connect</h5>
+                    <h5 class="general-head">Connect</h5>
                         <ul class="list-inline connect-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://en-gb.facebook.com/">
@@ -93,20 +94,43 @@
                         </ul>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Where are we?</h5>
-                        <p class="inline-block general-sub">
-                        Map which tells user location of Archo Drum Academy
+                    <h5 class="general-head">Stay in touch</h5>
+                        <p class="list-inline general-sub">
+                            <form class="form-group">
+                                <input type="email" required class="form-control" placeholder="Email" aria-label="Email address"/>
+                                    <div class="text-align align-center">
+                                    <button type="submit" class="btn btn-primary form-control" aria-label="submit the form">Submit</button>
+                                    </div>
+                            </form>
                         </p>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Contact Us</h5>
-                        <p class="inline-block general-sub">
-                        1 Drum Lane
-                        Norwich 
-                        Norfolk 
-                        NR1 4TS 
-                        </p>
+                    <h5 class="general-head">Contact Info</h5>
+                            <ul class="list-inline general-sub">
+                                <li>
+                                    <span class="fa-li d-none d-md-inline">
+                                      <i class="fas fa-map-marked-alt"></i>
+                                    </span>
+                                    <i class="fas fa-map-marked-alt d-md-none pr-2"></i>
+                                    Archo Drum Academy<br/>Unit 1a, Fenton Road<br/>Norwich, UK
+                                </li>
+                                <li>
+                                    <span class="fa-li d-none d-md-inline">
+                                    <i class="fas fa-phone-square"></i>
+                                    </span>
+                                    <i class="fas fa-phone-square d-md-none pr-2"></i>
+                                    <a aria-label="phone number" href="tel:555-860-2545">555-860-2545</a>
+                                </li>
+                                <li>
+                                    <span class="fa-li d-none d-md-inline">
+                                    <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <i class="fa fa-envelope d-md-none pr-2"></i>
+                                    <a aria-label="email" href="mailto:matt@archodrums.co.uk">matt@archodrums.co.uk</a>
+                                </li>
+                            </ul>
                 </div>
+            </div>
             </div>
         </footer>
 

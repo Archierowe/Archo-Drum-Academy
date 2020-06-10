@@ -1,33 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
 
+/* ---------------------------------------------colors */
+
+
 
 /* ---------------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
 h3,
-h4 
+h4,
 h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
 h5 {
+    margin: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-head {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 200;
-    font-size: 1.2rem;
-    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
     position: relative;
     display: inline-block;
 }
 
 .general-sub {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 0.8em;
+    position: relative;
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
 
 /* ---------------------------------------------Header */
 
@@ -61,7 +84,7 @@ h5 {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #fafafa;
 }
 
 .navbar-nav .nav-item .nav-link:hover::after,
@@ -93,6 +116,9 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
 }
 
 .connect-links {
@@ -116,11 +142,62 @@ footer {
 }
 
 .connect-links li a i:hover {
-    background: #e84610;
+    background: #6495ED;
 }
 
-#footer-details {
-    padding: 20px;
+footer input[type="email"] {
+    border: none;
+    width: 70%;
+    font-size: 0.8rem;
+    border-radius: 0;
+    display: inline-block;
+    height: 2rem;
+    background-color: #fff;
 }
 
+footer button[type="submit"] {
+    background-color:  #8f8f8f;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    width: 5em;
+    height: 2em;
+    display: inline-block;
+    position: relative;
+    border: 0;
+    margin-top: 0.5em;
+    padding-top: 0.3em;
+}
 
+footer button[type="submit"]:hover {
+    background-color: #6495ED;
+}
+
+ul { 
+    list-style-type: none; 
+}
+
+.footer-info li {
+    margin-bottom: 0.5rem;
+}
+
+footer a,
+footer a:hover {
+    color: #fafafa;
+}
+
+footer .social ul {
+    line-height: 1rem;
+}
+
+footer .social .list-inline-item {
+    font-size: 1.4rem;
+}
+
+footer .social .list-inline-item:hover {
+    transform: scale(1.2);
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+    padding-right: 0.5rem;
+}
