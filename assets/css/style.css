@@ -73,6 +73,11 @@ h5 {
     background-color: transparent;
 }
 
+.overlay {
+    height: 100vh;
+    overflow: auto;
+}
+
 /* ---------------------------------------------Header */
 
 .nav-container {
