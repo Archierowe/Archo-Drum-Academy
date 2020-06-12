@@ -48,6 +48,31 @@ h5 {
     display: inline-block;
 }
 
+/* ---------------------------------------------Containers */
+
+.navalert-container .col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #6495ED;
+    border-color: #6495ED;
+}
+
+.alert {
+    color: #000
+}
+
+.alert-secondary {
+    color: #000;
+    background-color: transparent;
+}
+
 /* ---------------------------------------------Header */
 
 .nav-container {
