@@ -131,26 +131,29 @@ h5 {
     background-color: transparent;
 }
 
-
-
 /* ---------------------------------------------Main content */
 
-* {
-  box-sizing: border-box;
-}
-
-h3, h4 {
+h1 {
     color: #fff;
+} 
+
+.animate__fadeInDown {
+    animation-duration: 4s;
 }
 
-[data-animate] {
-  visibility: visible;
+.animate__fadeInUp {
+    animation-duration: 4s;
 }
 
-.animated {
-  visibility: visible;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+.animate__animated {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
 }
 
 .videosize {
