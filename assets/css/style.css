@@ -4,12 +4,8 @@
 
 /* ---------------------------------------------Special paddings/margins/text */
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Roboto", sans-serif;
+h1 {
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
 }
 
@@ -133,27 +129,41 @@ h5 {
 
 /* ---------------------------------------------Main content */
 
-h1 {
+
+.welcome-heading {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+    position: relative;
+    display: inline-block;
+    align-items: center;
     color: #fff;
-} 
+}
+
+.welcome-message {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+    position: relative;
+    
+    align-items: center;
+    color: #fff;
+}
 
 .animate__fadeInDown {
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 .animate__fadeInUp {
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 .animate__animated {
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-}
-
-.mb-5 {
-    margin-bottom: 3rem!important;
 }
 
 .videosize {
