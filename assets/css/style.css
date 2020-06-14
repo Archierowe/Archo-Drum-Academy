@@ -129,7 +129,6 @@ h5 {
 
 /* ---------------------------------------------Main content */
 
-
 .welcome-heading {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -151,12 +150,14 @@ h5 {
     color: #ffffff;
     
 }
-.btn btn-secondary:focus {
+.btn btn-secondary {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     color: #ffffff;
-    padding-top: 0px;
     background-color: #8f8f8f;
+    width: 5em;
+    height: 2em;
+    display: inline-block;
 }
 
 .enter-link:hover {
@@ -193,12 +194,11 @@ h5 {
 
 /* ---------------------------------------------Footer */
 
-footer {
+.footer {
     background-color: #343a40;
     color: #fafafa;
     min-height: 120px;
-    margin-top: 200px;
-    padding: 20px;
+    margin: 0;
 }
 
 .connect-links {
