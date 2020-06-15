@@ -10,6 +10,8 @@ body {
     flex-direction: column;
 }
 
+
+
 /* ---------------------------------------------Special paddings/margins/text */
 
 h1 {
@@ -67,19 +69,15 @@ h5 {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .logo img {
     width: 100%;
-    height: auto;
 }
 
-.navbar-brand {
-    width: auto;
-}
 
 .navbar-nav .nav-item .nav-link {
     font-family: "Oswald", sans-serif;
@@ -194,7 +192,7 @@ h5 {
     animation-fill-mode: both;
 }
 
-.videosize {
+.video {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -202,8 +200,36 @@ h5 {
     width: 100%; 
     height: 100%;
     object-fit: cover;
+
 }
 
+/* .grad {
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
+    url('../video/arcohome 1.mp4');
+    background-size: cover;
+} */
+
+/* ---------------------------------------------HOMEPAGE MAP */
+
+/* #map-container iframe {
+    border: none;
+    margin-top: -50px;
+    width: 100%;
+    height: 15rem;
+}
+
+#map-container {
+    overflow: hidden;
+}
+
+#map-overlay {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    top: 20rem;
+    margin-top: -20rem;
+    z-index: 1;
+} */
 
 
 /* ---------------------------------------------Footer */
@@ -293,4 +319,10 @@ footer .list-inline-item {
 
 footer .list-inline-item:hover {
     transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+.welcome-heading, .welcome-message {
+    font-size: 26px;
+    }
 }

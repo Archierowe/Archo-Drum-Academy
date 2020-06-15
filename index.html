@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <!-- animate.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>HOME | Arco Drum Academy</title>
 </head>
@@ -19,10 +21,10 @@
 	<!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid">
+            <div class="nav-container container-fluid">
                 <!-- Logo Image-->
                     <a class="navbar-brand logo" href="index.html">
-                        <img src="assets/images/archo-logo.png" alt="Logo for Arco Drum Academy" class="d-inline-block align-middle mr-2"/>
+                        <img src="assets/images/arco-01-white.png" alt="Logo for Arco Drum Academy" class="d-inline-block align-middle mr-2"/>
                     </a>
                 <!-- Navbar content -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,13 +67,14 @@
     
     <!-- MAIN CONTENT -->
     <section class="page content">
+    <div style="overflow:auto">
         <div class="container content-container text-center">
         <!-- BACKGROUND VIDEO LOOP -->
-            <video class="hidden-xs hidden-sm hidden-md videosize embed-responsive-item" muted autoplay="autoplay" loop="loop">
+            <video class="grad hidden-xs hidden-sm hidden-md video embed-responsive-item" muted autoplay="autoplay" loop="loop">
                 <source src="assets/video/arcohome 1.mp4" type="video/mp4">
             </video>
-             <!-- HELLO -->        
-                <div class="row"> 
+             <!-- WELCOME -->        
+                <div class="row welcome"> 
                     <div class="col-sm-12">
                         <h1 class="welcome-heading animate__animated animate__fadeInDown">Welcome to Arco</h1>
                             <hr class="block-divider--white animate__animated animate__fadeInDown"/>
@@ -85,8 +88,21 @@
                                 </h3>
                             <a class="btn btn-secondary animate__animated animate__fadeInUp enter-link list-inline-item" href="what-we-offer.html" role="button">Enter</a>
                     </div>
-                </div>        
-        </div>
+                </div>
+                <!-- <div id="map-container">
+                            <div id="map-overlay"></div>
+                            <iframe
+                                src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;coord=52.630886, 1.297355&amp;q=NR1%201QE+(Arco%20Drum%20Academy)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed"
+                                title="Location Map"
+                                aria-label="Location Map"
+                            ></iframe>
+                        </div>
+
+                        <div style="width: 100%">
+                        <iframe width="100%" height="200" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map/">km radius map</a></iframe>
+                        </div><br />        
+                </div> -->
+    </div>    
     </section>
 
     <!-- FOOTER -->
