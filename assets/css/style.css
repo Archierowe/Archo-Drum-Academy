@@ -132,42 +132,33 @@ h5 {
     background-color: transparent;
 }
 
-/* ---------------------------------------------Main content */
+/* ---------------------------------------------WELCOME SECTION */
 
-.welcome-heading {
+.section-full{
+    width: 100%;
+    overflow: auto;
+}
+
+.custom-jumbotron {
+    background: none;
+    color: #fff;
+}
+
+.welcome-title {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 200;
     color: #fff;
-    margin-top: 50px;
-}
-
-.block-divider--white {
-    width: 200px;
-    height: 2px;
-    border: 0;
-    background-color: white;
+    margin-top: 100px;
 }
 
 .welcome-message {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
-    color: #ffffff;
-}
-.btn btn-secondary {
-    font-family: "Oswald", sans-serif;
-    font-weight: 200;
-    color: #ffffff;
-    background-color: #8f8f8f;
-    width: 5em;
-    height: 2em;
-    margin-top: 150px;
-}
-
-.enter-link:hover {
-    background: #6495ED;
-    border: none;
+    font-size: 26px;
+    color: #fff;
+    margin-top: 50px;
 }
 
 .animate__fadeInDown {
@@ -183,9 +174,31 @@ h5 {
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+} 
+
+.btn-custom {
+    background-color:  #8f8f8f;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 0.9em;
+    width: 11em;
+    height: 2em;
+    display: inline-block;
+    position: relative;
+    border: 0;
+    margin-top: 1em;
+    padding-top: 0.3em;
+}
+.btn-custom:hover {
+    background: #6495ED;
 }
 
-.video {
+.btn-custom:hover {
+    transform: scale(1.1);
+}
+
+
+.background-video {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -194,35 +207,6 @@ h5 {
     height: 100%;
     object-fit: cover;
 }
-
-/* .grad {
-    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
-    url('../video/arcohome 1.mp4');
-    background-size: cover;
-} */
-
-/* ---------------------------------------------HOMEPAGE MAP */
-
-/* #map-container iframe {
-    border: none;
-    margin-top: -50px;
-    width: 100%;
-    height: 15rem;
-}
-
-#map-container {
-    overflow: hidden;
-}
-
-#map-overlay {
-    position: relative;
-    width: 100%;
-    height: 20rem;
-    top: 20rem;
-    margin-top: -20rem;
-    z-index: 1;
-} */
-
 
 /* ---------------------------------------------Footer */
 
@@ -313,8 +297,8 @@ footer .list-inline-item:hover {
     transform: scale(1.2);
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 .welcome-heading, .welcome-message {
-    font-size: 26px;
+    font-size: 16px;
     }
 }
