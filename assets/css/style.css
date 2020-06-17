@@ -216,6 +216,7 @@ hr.solid {
 
 .btn-custom-1 {
     background-color:  #8f8f8f;
+    border-color: none;
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-size: 0.9em;
@@ -301,7 +302,10 @@ hr.solid {
 
 /* ---------------------------------------------What we offer */
 
-
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 
 /* ---------------------------------------------Modal */
@@ -322,9 +326,7 @@ hr.solid {
     color: #000;
 }
 
-/* .progress-bar {
-    background-color: rgb(230, 247, 84);
-} */
+
 
 /* ---------------------------------------------Footer */
 
