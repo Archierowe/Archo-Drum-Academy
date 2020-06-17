@@ -114,7 +114,6 @@ h5 {
 .navalert-container .col-12 {
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 20px;
 }
 
 .site-wide-alert {
@@ -241,15 +240,30 @@ hr.solid {
     background-size: cover;
 }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.26%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .section-full {
     width: 100%;
     overflow: auto;
 }
 
-.custom-jumbotron {
-    background: none;
-    color: #fff;
+.col-md-6 {
+    padding: 0 30px 30px;
 }
+
 
 /* ---------------------------------------------Footer */
 
