@@ -255,6 +255,12 @@ hr.solid {
 
 /* ---------------------------------------------About */
 
+.founder-pic{
+    width: auto;
+    height: auto;
+    object-fit:scale-down;
+}
+
 .title {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -343,6 +349,17 @@ hr.solid {
 .btn-custom-2:hover {
     transform: scale(1.1);
 }
+
+.calendar-link {
+    color: #fff;
+}
+.question-box {
+    color: #fff;
+}
+
+/* .calendar-link:hover {
+    transform: scale(1.1);
+} */
 
 /* ---------------------------------------------Modal */
 

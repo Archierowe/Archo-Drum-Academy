@@ -64,8 +64,7 @@
           </div>
         </div>
     </div>
-    
-
+    <!-- BOOK A LESSON - PAGE CONTENT -->
     <section class="section-full main-img-2">
 		<div class="container-fluid">
             <div class="row">
@@ -95,29 +94,25 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label for="inputState">Book lessons here</label>
-                                    <select id="inputlessontype" class="form-control">
-                                        <option selected>Choose...</option>
-                                        <option>Book a taster lesson</option>
-                                        <option>Book 1 lesson</option>
-                                        <option>Book 4 lessons</option>
-                                        <option>Book 8 lessons</option>
-                                        <option>Book recurring lessons</option>
-                                    </select>                       
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
                                <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/archierowe/drum-lesson-1-2-1?background_color=e2d3d3&text_color=1b1a1a&primary_color=2ab5ec'});return false;">Calendar</a>
-<!-- Calendly link widget end -->
-                                        
+                                    <button type="button" class="btn btn-secondary">
+                                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                                    <a href="" class="calendar-link" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/archierowe/drum-lesson-1-2-1?background_color=e2d3d3&text_color=1b1a1a&primary_color=2ab5ec'});return false;">Book a lesson on our calendar</a>
+                                <!-- Calendly link widget end -->
+                                    </button>         
                             </div>
                         </div>
-                    </form>
-                    
+                        <div class="container">
+                                <h2 class="mt-3 title">Do you have questions?</h2>
+                                    <p class="general-text-1">Just ask and we'll get back to you</p>
+                        <form>
+                                <div class="form-group">
+                                <textarea class="form-control question-box" rows="5" id="comment" placeholder="Question(s)"></textarea>
+                                </div>
+                        </form>
+                        </div>
+                    </form> 
                 </div>
                 <div class="col-md-4 text-center">
 				    <h2 class="mt-3 title">Recording sessions</h2>
@@ -127,11 +122,6 @@
             </div>
 		</div>
     </section>
-
-
-
-
-
     <!-- FOOTER -->
     <footer class="footer">
             <div class="row footer-container text-center text-md-left">
@@ -210,42 +200,4 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
-
-<!-- <form>
-                    <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label for="fullname">Your full name</label>
-                    <input type="fullname" class="form-control" id="fullname" placeholder="Full name">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="phone">Phone</label>
-                        <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                </div>
-    
-                <div class="form-group col-md-6">
-                    <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                                <option>Beginner taster Lesson</option>
-                                <option>4 lesson block</option>
-                                <option>8 lesson block</option>
-                        </select>
-                </div>
-                    </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        GDPR - please tick the box to consent this website storing your personal details so we can respond to your enquiry
-      </label>
-      
-    </div>
-  </div>
-  </div>
-</form> -->
