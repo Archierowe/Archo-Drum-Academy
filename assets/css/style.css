@@ -2,7 +2,6 @@
 
 html {
     height: 100%;
-    
 }
 
 body {
@@ -26,8 +25,6 @@ h3,
 h4 {
     margin: 0;
 }
-
-
 
 h5 {
     margin: 10px;
@@ -61,7 +58,8 @@ h5 {
 
 .calendar-icon {
     color: #fafafa;
-    padding: 0;
+    margin-bottom: 20px;
+    flex-direction: row;
 }
 
 /* ---------------------------------------------Header */
@@ -295,6 +293,15 @@ hr.solid {
     background-size: cover;
 }
 
+.background-img-2 {
+    background-image:
+    linear-gradient(to bottom, rgb(44, 44, 44), rgba(0, 0, 0, 0.6)),
+    url('../images/mobo-1.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+
 .resp-container {
     position: relative;
     overflow: hidden;
@@ -332,26 +339,6 @@ hr.solid {
     background-size: cover;
 }
 
-.btn-custom-2 {
-    background-color:  #8f8f8f;
-    border-color: none;
-    font-family: "Roboto", sans-serif;
-    color: #fff;
-    font-size: 0.9em;
-    width: 11em;
-    height: 2em;
-    display: inline-block;
-    position: relative;
-    border: 0;
-    padding-top: 0.3em;
-}
-.btn-custom-2:hover {
-    background: #6495ED;
-}
-
-.btn-custom-2:hover {
-    transform: scale(1.1);
-}
 
 .calendar-link {
     color: #fff;
@@ -359,6 +346,7 @@ hr.solid {
 .question-box {
     color: #fff;
     box-sizing: border-box;
+    max-height: 150px;
 }
 
 /* ---------------------------------------------Masterclasses */
@@ -398,6 +386,7 @@ footer {
 .content-container,
 .footer-container {
     width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
