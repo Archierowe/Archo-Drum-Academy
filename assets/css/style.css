@@ -10,29 +10,7 @@ body {
     flex-direction: column;
 }
 
-/* ---------------------------------------------Special paddings/margins/text */
-/* 
-h1,
-h2,
-h3 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-h5 {
-    margin: 10px;
-}
-
-.uppercase {
-    text-transform: uppercase;
-} */
+/* ---------------------------------------------General text/icons */
 
 .general-head {
     font-family: "Oswald", sans-serif;
@@ -51,6 +29,24 @@ h5 {
     position: relative;
     color: #fafafa;
 }
+
+.general-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.general-text-1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 10px;
+}
+
 
 .inline-block {
     display: inline-block;
@@ -143,15 +139,15 @@ h5 {
 
 /* ---------------------------------------------WELCOME SECTION */
 
-.container-welcome {
+/* .container-welcome {
     width: 100%;
     overflow: auto;
-}
+} */
 
 .custom-jumbotron {
     background: none;
     color: #fff;
-    margin-bottom: 110px;
+    margin-top: 100px;
 }
 
 .intro-title {
@@ -161,27 +157,11 @@ h5 {
     font-size: 36px;
     font-weight: 200;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.general-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    text-align: justify;
-    color: #fff;
-    margin-top: 20px;
-}
 
-
-.general-text-1 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    color: #fff;
-    margin-top: 10px;
-}
 
 hr.solid {
   border-top: 1px solid #fff;
@@ -192,6 +172,10 @@ hr.solid {
 }
 
 .animate__fadeInUp {
+    animation-duration: 3s;
+}
+
+.animate__fadeIn {
     animation-duration: 3s;
 }
 
@@ -212,9 +196,10 @@ hr.solid {
     display: inline-block;
     position: relative;
     border: 0;
-    margin-top: 5em;
+    margin-top: 100px;
     padding-top: 0.3em;
 }
+
 .btn-custom:hover {
     background: #6495ED;
 }

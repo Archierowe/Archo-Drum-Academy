@@ -76,20 +76,20 @@
                 <div class="col-md-4 text-center">
 				    <h2 class="mt-3 title">Book a Lesson</h2>
 				    <hr class="solid">
-                    <form>
+                    <form action="https://formspree.io/moqknayp" target="_blank" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" required aria-label="Name" name="name" id="fullname" placeholder="Name">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" required aria-label="Email" name="email" id="email"  placeholder="Email">
                             </div>
                         </div>    
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                <input type="text" class="form-control" required aria-label="Phone" name="phone" id="phone" placeholder="Phone">
                         </div>
                         </div>
                         <i class="far fa-calendar-alt fa-2x calendar-icon"></i>
@@ -105,14 +105,12 @@
                             </div>
                         </div>
                         <div class="container">
-                                <h2 class="mt-3 title">Do you have questions?</h2>
-                                    <p class="general-text-1">Just ask and we'll get back to you</p>
-                        <form>
+                            <h2 class="mt-3 title">Do you have questions?</h2>
+                                <p class="general-text-1">Just ask and we'll get back to you</p>
                                 <div class="form-group">
-                                <textarea class="form-control question-box" rows="6" placeholder="Question(s)"></textarea>
+                                <textarea class="form-control question-box" rows="6" name="I have a question" id="form-comment" placeholder="Question(s)"></textarea>
                                 </div>
-                                 <button type="submit" class="btn btn-custom-1">Submit</button>
-                        </form>
+                                <input type="submit" class="btn btn-custom-1" value="Submit" aria-label="submit the form"/>
                         </div>
                     </form> 
                 </div>
