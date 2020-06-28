@@ -20,7 +20,7 @@ It is presented across five pages that give a balanced and exciting overview of 
 
 ## DEPLOYMENT AND LIVE DEMO
 
-The site has been deployed to github and is accessible on [github pages]().
+The site has been deployed to github and is accessible on [github pages](https://archierowe.github.io/Archo-Drum-Academy/.)
 
 ## UX
 
