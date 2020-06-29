@@ -1,4 +1,4 @@
-![alt text](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-01-black.png "Alternative black logo")
+![Arco Logo](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/arco-01-black.png)
 
 # ARCO DRUM ACADEMY WEBSITE
 
@@ -51,15 +51,15 @@ These questions are answered in the following ways:
 -   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
 -   Potential customers can see all that the Academy offers in more than one way: through the "what we offer" button on the home page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages.
 -   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
--   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link ![alt text](https://archierowe.github.io/Archo-Drum-Academy/wireframes/Book-a-lesson-calendly.png "Book a lesson calendly link") for actual bookings and a form to ask questions should they so wish.
--   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings. ![alt text](https://archierowe.github.io/Archo-Drum-Academy/wireframes/Masterclasses-calendly.png "Masterclasses calendly link")
+-   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link for bookings and a form to ask questions should they so wish.
+-   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings.
 -   The about page gives a comprehensive and personal look at the founder, his experience and his vision for the academy and for students. Links to previous work gives users the opportunity to 'experience' the professional work of the founder and enhances the credibility of the drum tutor(s)/teacher(s) and academy as a whole.
 -   Images throughout the site give potential customers/students the opportunity to see inside the studios, which enhances the offering - if a potential customer can see facilities, then they can become more excited at the propect of being a part of it all.
 
 
 ### User Experience
 
-![Arco Drum Academy website on different screensizes](wireframes/devices-display.png)
+![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/devices-display.png)
 
 The site was created to be a visually appealing yet easily accesible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
 
@@ -72,7 +72,7 @@ Use of the divison of thirds was used in the information based pages (What we of
 
 A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
 
-The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf "Arco Drum Academy")
+The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/arco-wireframe.pdf "Arco Drum Academy")
 
 
 ## FEATURES
