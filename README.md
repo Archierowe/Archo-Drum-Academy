@@ -49,7 +49,7 @@ The hope is that beginners and experienced players all find something they want 
 These questions are answered in the following ways:
 
 -   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
--   Potential customers can see all that the Academy offers in more than one way: through the "what we offer" button on the home page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages.
+-   Potential customers can see all that the Academy offers in more than one way: through the "what we offer" button on the [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages - where potential customers can input email and ask questions. Information such as contact details for the academy are also located in the footer.
 -   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
 -   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link for bookings and a form to ask questions should they so wish.
 -   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings.
@@ -88,7 +88,7 @@ Numerous features were used with the intention of giving a simple and intuitive,
 
 The site uses various features, many of which are native to bootstrap:
 
--   Forms and question boxes - such as those seen on Book a lesson and Masterclass pages.
+-   Forms and question boxes - such as those seen on Book a lesson and Masterclass pages. 
 -   Buttons  - site wide use of buttons.
 -   Modal windows on [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page to display information about lessons for beginners.
 -   Modal windows on [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page to display calendly link to book lessons.
