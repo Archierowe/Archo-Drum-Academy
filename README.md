@@ -30,7 +30,7 @@ The aim of the visuals was clean, professional and obvious. The Logo created was
 
 There is much attention to detail with the visual tone intended to display professionalism and precision - projecting themes of professionalism and welcoming everyone to come, experience the same, and be a part of that journey.
 
-The [home] (https://https://archierowe.github.io/Archo-Drum-Academy/index.html) page contains striking visuals of a video of a live show of the founder with stark text conveying the values and aims of Arco Drum Academy. 
+The [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page contains striking visuals of a video of a live show of the founder with stark text conveying the values and aims of Arco Drum Academy. 
 
 The visual flow of the site is intended to be simple, visually pleasing and intuitive with the home page as the anchor.
 
@@ -48,7 +48,7 @@ The hope is that beginners and experienced players all find something they want 
 
 These questions are answered in the following ways:
 
--   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar. ![alt text](image.jpg)
+-   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
 -   Potential customers can see all that the Academy offers in more than one way: through the "what we offer" button on the home page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages.
 -   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
 -   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link ![alt text](https://archierowe.github.io/Archo-Drum-Academy/wireframes/Book-a-lesson-calendly.png "Book a lesson calendly link") for actual bookings and a form to ask questions should they so wish.
