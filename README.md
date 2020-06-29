@@ -59,7 +59,7 @@ These questions are answered in the following ways:
 
 ### User Experience
 
-![alt text](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png "Arco Drum Academy")
+![Arco Drum Academy website on different screensizes](wireframes/devices-display.png)
 
 The site was created to be a visually appealing yet easily accesible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
 
