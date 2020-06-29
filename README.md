@@ -1,4 +1,4 @@
-![Arco Logo](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/arco-01-black.png)
+![Arco Logo](https://archierowe.github.io/Archo-Drum-Academy/images/arco-01-black.png)
 
 # ARCO DRUM ACADEMY WEBSITE
 
@@ -28,11 +28,11 @@ The site has been deployed to github and is accessible on [github pages](https:/
 
 The aim of the visuals was clean, professional and obvious. The Logo created was intended to be instantly recognisable as a Drum tuition school. 
 
-There is much attention to detail with the visual tone intended to display professionalism and precision - projecting themes of professionalism and welcoming everyone to come, experience the same, and be a part of that journey.
+There is much attention to detail throughout. The visual tone is intended to display professionalism and precision - projecting these themes and welcoming everyone to come, experience the same, and be a part of that journey.
 
 The [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page contains striking visuals of a video of a live show of the founder with stark text conveying the values and aims of Arco Drum Academy. 
 
-The visual flow of the site is intended to be simple, visually pleasing and intuitive with the home page as the anchor.
+Overall, the visual flow of the site is intended to be simple, visually pleasing and intuitive with the home page as the anchor.
 
 ### User stories
 
@@ -59,7 +59,7 @@ These questions are answered in the following ways:
 
 ### User Experience
 
-![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/devices-display.png)
+![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/images/devices-display.png)
 
 The site was created to be a visually appealing yet easily accesible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
 
