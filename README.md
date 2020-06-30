@@ -104,8 +104,10 @@ The site was tested on various platforms to ensure it displays across different 
 
 Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
 
--   Gifs -   to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
-         -   to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
+-   Gif to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
+
+
+-   Gif to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
 
