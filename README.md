@@ -67,7 +67,7 @@ Use of the divison of thirds was used in the information based pages (What we of
 
 A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
 
-The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/arco-wireframe.pdf "Arco Drum Academy")
+The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/Wireframes/arco-wireframe.pdf)
 
 
 ## FEATURES
@@ -110,6 +110,8 @@ Form validation was tested on both the [Book a lesson](https://archierowe.github
 -   Gif to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
+
+![Pingdom speed test result](https://archierowe.github.io/Archo-Drum-Academy/wireframes/pingdom.png)
 
 ### Issues, challenges and bugs
 
