@@ -14,13 +14,10 @@ It is presented across five pages that give a balanced and exciting overview of 
 
 -   Home: Gives the vision of Arco - an exciting place to come and learn drums.
 -   About: Explains the ethos, values and vision of Arco Drum Academy. Also presents some of the founders previous work, the aim here is showcasing experience and professionalism - Arco is an exciting place to learn drums.
--   What we offer: This page contains all relevant information about what a user can get from Arco - easy and comprehensive presentation with obviousd links to what is on offer and how to book lessons.
+-   What we offer: This page contains all relevant information about what a user can get from Arco - easy and comprehensive presentation with obvious links to what is on offer and how to book lessons.
 -   Book a lesson: Easy to navigate page for lesson bookings. Aim is to make it intuitive for the user - all done through submitting info and booking a lesson through calendly. User has opportunity to ask questions. 
--   Masterclasses: Site users can come and lerarn from world-famous drummers. Easy booking form through calendly form and again, opportunity to ask questions. 
+-   Masterclasses: Site users can come to Arco Drum Academy and listen to and importantly, learn from world-famous drummers. Easy booking form through calendly form and again, opportunity to ask questions. 
 
-## DEPLOYMENT AND LIVE DEMO
-
-The site has been deployed to github and is accessible on [github pages](https://archierowe.github.io/Archo-Drum-Academy/.)
 
 ## UX
 
@@ -59,8 +56,6 @@ These questions are answered in the following ways:
 
 ### User Experience
 
-![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png)
-
 The site was created to be a visually appealing yet easily accesible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
 
 Colour schemes were intended to be muted, with bold white lettering to give a clean appearance. 
@@ -96,7 +91,15 @@ The site uses various features, many of which are native to bootstrap:
 -   On mobile devices some buttons disappear and content text (from about page) disappears to allow for a more fluid user experience.
 -   Flexbox classes used to keep content fixed, regardless of content size.
 
+### FEATURES LEFT TO IMPLEMENT
+
+-   Ideally I would have liked to have produced/designed features that gave a more 'tactile' experience - buttons that made sounds or given some nods to drum sound effects. 
+    However, this meant using languages that were outside of the scope of this project - Javascript for example. 
+-   
+
 ## TESTING
+
+![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png)
 
 The site was tested on various platforms to ensure proper display across different screen sizes.
 
@@ -104,12 +107,19 @@ Form validation was tested on both the [Book a lesson](https://archierowe.github
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
 
-### ISSUES AND CHALLENGES
+-   Gifs -   to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
+         -   to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
+
+### Issues, challenges and bugs
 
 -   Numerous challenges presented themselves through the addition of the live video loop. I attempted to originally implement through a linear-gradient background. Due to my inexperience I attempted this as a 'background image'.
     After many attempts to make this work I found a very helpful solution by way of custom CSS which allowed for the video to be looped - courtesy of [W3 Schools](https://www.w3schools.com/html/html5_video.asp). I also was not able to 
     'fade' the background video to enable the intro/welcome text to really 'pop'. This was eventually achieved through applying a filter in CSS.
--   After many attempts to get the calendly link working I was able to integrate it itno a button - this was achieved by trial and error of positioning of the divs and it led to a deeper understanding of placement.
+-   It took many attempts to get the calendly link integrated into a button - this was achieved by trial and error of positioning of the divs and it led to a deeper understanding of placement.
+
+## DEPLOYMENT AND LIVE DEMO
+
+The site has been deployed to github and is accessible on [github pages](https://archierowe.github.io/Archo-Drum-Academy/.)
 
 ## TECHNOLOGIES
 
@@ -143,6 +153,8 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 
 ## ACKNOWLEDGMENTS
 
--   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for invaluable help, feedback and encouragement.
--   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!".
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement!
+-   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   A thank you to [Bootstrapious](https://bootstrapious.com/) for a wealth of design ideas to look through - gave the idea for the FadeIn/Down text on the home page.
+-   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself's - very helpful!
+-   My wife Annie, for continually supporting and encouraging me in this new adventure. She also brought endless tea and coffee (and treats) that 'fuelled' those late night sessions. 
