@@ -65,7 +65,7 @@ Use of the divison of thirds was used in the information based pages (What we of
 
 ## WIREFRAME
 
-A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
+A detailed wire frame was designed to ensure the organisation and flow of content for desktop and mobile versions of the website.
 
 The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
 
