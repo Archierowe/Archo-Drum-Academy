@@ -13,7 +13,7 @@ Arco Drum Academy is a vision that is in the making - albeit on a smaller scale 
 It is presented across five pages that give a balanced and exciting overview of the company and brand.
 
 -   Home: Gives the vision of Arco - an exciting place to come and learn drums.
--   About: Explains the ethos, values and vision of Arco Drum Academy. Also presents some of the founders previous work, the aim here is showcasing experience and professionalism - Arco is an exciting place to learn drums.
+-   About: Explains the ethos, values and vision of Arco Drum Academy. Also presents some of the founders previous work, the aim here is showcasing experience and professionalism.
 -   What we offer: This page contains all relevant information about what a user can get from Arco - easy and comprehensive presentation with obvious links to what is on offer and how to book lessons.
 -   Book a lesson: Easy to navigate page for lesson bookings. Aim is to make it intuitive for the user - all done through submitting info and booking a lesson through calendly. User has opportunity to ask questions. 
 -   Masterclasses: Site users can come to Arco Drum Academy and listen to and importantly, learn from world-famous drummers. Easy booking form through calendly form and again, opportunity to ask questions. 
@@ -95,20 +95,21 @@ The site uses various features, many of which are native to bootstrap:
 
 -   Ideally I would have liked to have produced/designed features that gave a more 'tactile' experience - buttons that made sounds or given some nods to drum sound effects. 
     However, this meant using languages that were outside of the scope of this project - Javascript for example. 
--   
 
 ## TESTING
 
 ![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png)
 
-The site was tested on various platforms to ensure proper display across different screen sizes.
+The site was tested on various platforms to ensure it displays across different screen sizes.
 
-Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats.
+Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
+
+-   Gif to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
+
+
+-   Gif to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
-
--   Gifs -   to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
-         -   to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 ### Issues, challenges and bugs
 
@@ -116,6 +117,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
     After many attempts to make this work I found a very helpful solution by way of custom CSS which allowed for the video to be looped - courtesy of [W3 Schools](https://www.w3schools.com/html/html5_video.asp). I also was not able to 
     'fade' the background video to enable the intro/welcome text to really 'pop'. This was eventually achieved through applying a filter in CSS.
 -   It took many attempts to get the calendly link integrated into a button - this was achieved by trial and error of positioning of the divs and it led to a deeper understanding of placement.
+-   When testing the variety of browsers that needed to support the site, I have realised my home page does not always display properly. I had limited my intial 'build testing' to the Chrome Dev Tools - especially when checking code for breakpoints and differing screen sizes. It hadn't occured to me to run it on actual devices. I now have a much greater appreciation of this going forward.
 
 ## DEPLOYMENT AND LIVE DEMO
 
@@ -149,7 +151,7 @@ The site has been deployed to github and is accessible on [github pages](https:/
 ## MEDIA
 
 -   Logo design used throughout the site was created through [Fiverr](https://www.fiverr.com/), with some editing by myself for use on this project.
--   Photos throughout website are courtesy of [The Thinking Men](https://www.thethinkingmen.com/). 
+-   Photos throughout website - some are courtesy of [The Thinking Men](https://www.thethinkingmen.com/), the majority are owned by the student.
 
 ## ACKNOWLEDGMENTS
 
@@ -157,4 +159,4 @@ The site has been deployed to github and is accessible on [github pages](https:/
 -   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   A thank you to [Bootstrapious](https://bootstrapious.com/) for a wealth of design ideas to look through - gave the idea for the FadeIn/Down text on the home page.
 -   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself's - very helpful!
--   My wife Annie, for continually supporting and encouraging me in this new adventure. She also brought endless tea and coffee (and treats) that 'fuelled' those late night sessions. 
+-   My wife, for continually supporting and encouraging me in this new adventure. She also brought endless tea and coffee (and treats) which 'fuelled' those late night sessions. 
