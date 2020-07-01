@@ -46,7 +46,7 @@ The hope is that beginners and experienced players all find something they want 
 These questions are answered in the following ways:
 
 -   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
--   Potential customers can see all that the Academy offers in more than one way: through the "what we offer" button on the [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages - where potential customers can input email and ask questions. Information such as contact details for the academy are also located in the footer.
+-   Potential customers can see all that the Academy offers in more than one way: through the "What we offer" button on the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages - where potential customers can input email and ask questions. Information such as contact details for the academy are also located in the footer.
 -   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
 -   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link for bookings and a form to ask questions should they so wish.
 -   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings.
@@ -104,10 +104,15 @@ The site was tested on various platforms to ensure it displays across different 
 
 Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
 
--   Gif to illustrate how the Book a lesson works ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
+-   Gif to illustrate how the Book a lesson works
 
 
--   Gif to illustrate what happens when a question is submitted ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
+![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
+
+-   Gif to illustrate what happens when a question is submitted
+
+
+![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
 
@@ -157,8 +162,9 @@ The site has been deployed to github and is accessible on [github pages](https:/
 
 ## ACKNOWLEDGMENTS
 
--   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement!
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement (legend)!
 -   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   A thank you to [Bootstrapious](https://bootstrapious.com/) for a wealth of design ideas to look through - gave the idea for the FadeIn/Down text on the home page.
 -   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself' sections - very helpful!
+-   I spent, probably, too many hours staring at the [Stackoverflow](https://stackoverflow.com/) due to the many google searches I did trying to figure out how to implement all the ideas floating around my head at 'too-late-O'clock' - most of which never made it to the end product.
 -   My wife, for continually supporting and encouraging me in this new adventure. She also brought endless tea and coffee (and treats) which 'fuelled' those late night sessions. 
