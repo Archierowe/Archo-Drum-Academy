@@ -104,19 +104,30 @@ The site was tested on various platforms to ensure it displays across different 
 
 Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
 
--   Gif to illustrate how the Book a lesson works
+### Gif to illustrate how the Book a lesson works
 
+-   User clicks on book a lesson button.
+-   This takes them to the Calendly select a day - a date then which they can select.
+-   this then takes them to selecting a time on the selected day.
+-   They then enter their contact details and a question (if they have one).
+-   They can then select close.
 
 ![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
 
--   Gif to illustrate what happens when a question is submitted
 
+
+### Gif to illustrate what happens when a question is submitted
+
+-   User enters personal details on the Book a lesson page and enters a question (email is required).
+-   The details are then sent to external source (in this case Formspree).
+-   Users enquiry arrives at email source (in this case my gmail),
 
 ![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
 
 The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
 
 ![Pingdom speed test result](https://archierowe.github.io/Archo-Drum-Academy/wireframes/pingdom.png)
+
 
 ### Issues, challenges and bugs
 
@@ -148,7 +159,8 @@ The site has been deployed to github and is accessible on [github pages](https:/
 -   [Animate.css](https://animate.style/): Used to create the welcome text FadeIn/Down on the homepage.
 -   Affinity Photo: For editing of all photos and images across the site.
 -   iMovie: For the editing of the background video for the homepage.
--   [Calendly](https://calendly.com/): Used to create bookings in the Book a lesson and Masterclasses pages. 
+-   [Calendly](https://calendly.com/): Used to create bookings on Book a lesson and Masterclasses pages. 
+-   [Formspree](https://formspree.io/): Used to capture personal details on Book a lesson and Masterclasses pages.
 -   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - allowed me to learn how to embed a video into the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page.
 -   [Responsive Viewer](https://http://ami.responsivedesign.is/#): a website that checks the responsiveness on any site at different screen sizes.
 -   [TinyPNG](https://tinypng.com/) used to compress images.
