@@ -129,6 +129,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 ![Pingdom speed test result](https://archierowe.github.io/Archo-Drum-Academy/wireframes/pingdom.png)
 
 
+
 ### Issues, challenges and bugs
 
 -   Numerous challenges presented themselves through the addition of the live video loop. I attempted to originally implement through a linear-gradient background. Due to my inexperience I attempted this as a 'background image'.
@@ -136,6 +137,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
     'fade' the background video to enable the intro/welcome text to really 'pop'. This was eventually achieved through applying a filter in CSS.
 -   It took many attempts to get the calendly link integrated into a button - this was achieved by trial and error of positioning of the divs and it led to a deeper understanding of placement.
 -   When testing the variety of browsers that needed to support the site, I have realised my home page does not always display properly. I had limited my initial 'build testing' to the Chrome Dev Tools - especially when checking code for breakpoints and differing screen sizes. It hadn't occurred to me to run it on actual devices. I now have a much greater appreciation of this going forward.
+-   I need to get more to grips with Flexbox as had some issues understanding how to implement into existing HTML.
 
 ## DEPLOYMENT AND LIVE DEMO
 
@@ -178,5 +180,5 @@ The site has been deployed to github and is accessible on [github pages](https:/
 -   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   A thank you to [Bootstrapious](https://bootstrapious.com/) for a wealth of design ideas to look through - gave the idea for the FadeIn/Down text on the home page.
 -   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself' sections - very helpful!
--   I spent, probably, too many hours staring at the [Stackoverflow](https://stackoverflow.com/) due to the many google searches I did trying to figure out how to implement all the ideas floating around my head at 'too-late-O'clock' - most of which never made it to the end product.
+-   I spent, probably, too many hours staring at the [Stackoverflow](https://stackoverflow.com/) site due to many google searches trying to figure out how to implement all the ideas floating around my head at 'too-late-O'clock' - most of which never made it to the end product.
 -   My wife, for continually supporting and encouraging me in this new adventure. She also brought endless tea and coffee (and treats) which 'fuelled' those late night sessions. 
